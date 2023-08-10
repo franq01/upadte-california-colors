@@ -1,0 +1,8 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.inlayHints.fontFamily": "Jetbrains Mono",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

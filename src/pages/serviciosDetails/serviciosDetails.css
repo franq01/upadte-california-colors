@@ -1,0 +1,57 @@
+.container-card-details {
+  margin-top: 30px;
+  padding: 20px;
+  height: 100vh;
+}
+.body-card-details {
+  display: flex;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  gap: 20px;
+  align-items: center;
+  height: 700px;
+  padding: 25px;
+}
+.image-service-details {
+  display: flex;
+  align-items: center;
+}
+.image-service-details img {
+  height: 300px;
+  width: 500px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.text-service-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.puntuacion-service {
+  display: flex;
+}
+.lista-servicios {
+  margin-top: 20px;
+}
+
+.btns-details{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 700px;
+}
+.btns-details Button{
+  width: 200px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .body-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+}

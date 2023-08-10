@@ -1,0 +1,16 @@
+/*Estilos de las cards de vacantes de trabajo*/
+.card-text {
+  text-align: center;
+}
+/*estilo del contenedor de carrusel de imagenes*/
+.container-carrusel {
+  margin-top: 10px;
+}
+/*estilos del icono de no hay vacantes*/
+.icon-error {
+  margin-top: 40px;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  color: red;
+}

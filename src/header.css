@@ -1,0 +1,123 @@
+.container-padre {
+  margin-top: 30px;
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo .c {
+  color: blue;
+  font-size: 30px;
+  text-shadow: 4px -3px 2px rgba(24, 67, 222, 0.6);
+}
+.logo .f {
+  color: green;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 4px -3px 2px rgba(19, 82, 37, 0.6);
+}
+.logo .i {
+  color: red;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 4px -3px 2px rgba(222, 24, 24, 0.6);
+}
+.container-button {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+.link-explorar {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.link-explorar:hover {
+  color: black;
+}
+.container-about {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-about h2 {
+  color: black;
+  font-family: cursive;
+}
+.container-about p {
+  text-align: justify;
+  color: black;
+}
+
+/*diseño para dispositivos moviles inteligentes antiguos*/
+@media (max-width: 576px) {
+  .container-padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-about {
+    gap: 25px;
+  }
+  .container-about p {
+    text-align: justify;
+  }
+  .container-button {
+    width: 100%;
+  }
+}
+
+/*diseño para dispositivos moviles inteligentes y algunos modelos de tabletas en posicion vertical */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container-padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+  }
+}
+
+/*diseño para dispositivos con pantallas mas grandes, tabletas en posicion hroizontal*/
+@media (min-width: 769px) and (max-width: 997px) {
+  .container-padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 997px) {
+  .container-padre {
+    margin-top: 30px;
+    display: grid;
+    gap: 10px;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+}

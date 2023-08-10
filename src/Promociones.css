@@ -1,0 +1,23 @@
+.container-promociones {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.body-promociones {
+  border-radius: 10px;
+  background-color: #faf4f4;
+}
+.body-promociones h1,
+h2,
+p {
+  color: blue;
+}
+.btn-promo {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 200px;
+}

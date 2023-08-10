@@ -1,0 +1,5 @@
+se deben de istalar las siguientes de penndencias:
+
+npm isntall firebase 
+npm install semantic-ui-react semantic-ui-css
+la sependicia de sematic se encarga de estilos para los botones y demas.

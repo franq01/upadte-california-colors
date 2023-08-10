@@ -1,0 +1,37 @@
+.container-vision {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icono-vision {
+  font-size: 120px;
+  color: blue;
+  transform: translate(0px);
+  animation: float 6s ease-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.body-vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-vision h2 {
+  color: black;
+}
+.body-vision p {
+  text-align: justify;
+  text-align: center;
+  color: black;
+}

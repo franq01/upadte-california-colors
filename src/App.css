@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 60px;
+}
+.container-img {
+  display: flex;
+  justify-content: center;
+}
+.container-img img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 90%;
+  height: 300px;
+}
+.container-img img:hover {
+  transform: translateY(-10px);
+}
+.container-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container-nosotros h2 {
+  color: blue;
+}
+.container-nosotros p {
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.promociones {
+  margin-top: 60px;
+}
+.promociones h1 {
+  text-align: center;
+  color: blue;
+}
+.funcionalidades {
+  text-align: center;
+  margin-top: 60px;
+  color: blue;
+}
+.container-servicios {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.container-cards-products {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}

@@ -1,0 +1,29 @@
+/*ESTILOS PARA LA CARD TRABAJOS*/
+.section-trabajos {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.card-trabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.icon-trabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 200px;
+  color: blue;
+}
+.texto-trabajos {
+  display: flex;
+  justify-content: center;
+}
+.texto-trabajos p {
+  text-align: center;
+  text-align: justify;
+  font-size: 17px;
+}

@@ -1,0 +1,9 @@
+export const HOME = "/";
+export const ListPromociones = "/promociones";
+export const CATALOGOSERVICIOS = "/servicios";
+export const SERVICIOID = "/servicios/:servicioID";
+export const LOGIN = "/login";
+export const ListTrabajos = "/trabajos";
+export const ListComentarios = "/comentarios";
+export const CONTACTO = "/contacto";
+export const PageAdmin = "/administrador";

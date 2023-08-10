@@ -1,0 +1,74 @@
+.container-mision {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icono-mision {
+  font-size: 120px;
+  color: blue;
+  transform: translate(0px);
+  animation: float 6s ease-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.body-mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-mision h2 {
+  color: black;
+}
+.body-mision p {
+  text-align: justify;
+  text-align: center;
+  color: black;
+}
+
+/*ESTILOS DEL COMPONENTE VALORES*/
+.container-valores {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icono-valores {
+  font-size: 120px;
+  color: blue;
+  transform: translate(0px);
+  animation: float 6s ease-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.body-valores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-valores h2 {
+  color: black;
+}
+.body-valores p {
+  text-align: justify;
+  text-align: center;
+  color: black;
+}

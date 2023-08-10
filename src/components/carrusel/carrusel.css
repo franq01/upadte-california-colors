@@ -1,0 +1,37 @@
+.imagen-carrusel {
+  height: 500px;
+  filter: brightness(0.4);
+}
+.title-carrusel {
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+}
+.container-redireccionar {
+  display: flex;
+  justify-content: center;
+}
+.redireccionar {
+  background-color: #007bff;
+  width: 200px;
+  border-radius: 5px;
+}
+.redireccionar a {
+  text-decoration: none;
+  color: white;
+}
+
+/*diseño para dispositivos moviles*/
+@media (min-width: 250px) and (max-width: 670px) {
+  .imagen-carrusel {
+    height: 350px;
+  }
+}
+/*dispositivo para tablets*/
+@media (min-width: 671px) and(max-width:990px) {
+  .imagen-carrusel {
+    height: 380px;
+  }
+}
